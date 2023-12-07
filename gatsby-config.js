@@ -1,10 +1,9 @@
-/**
- * @type {import('gatsby').GatsbyConfig}
- */
 module.exports = {
   siteMetadata: {
-    title: `devblog`,
-    siteUrl: `https://www.yourdomain.tld`
+    title: "Devblog",
   },
-  plugins: ["gatsby-plugin-postcss"]
+  plugins: [
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+  ],
 };
